@@ -35,7 +35,7 @@ wire s_medir, s_transmitir, s_timeout_conta;
 wire s_timeout, s_termina_medida;
 wire [2:0] s_largura;
 wire s_pronto;
-wire [3:0] unidade, dezena, centena;
+wire [3:0] unidade, dezena, centena, ang_unidade, ang_dezena, ang_centena;
 wire [3:0] s_db_estado;
 wire s_saida_serial, s_trigger, s_mensurar;
 wire [23:0] angulo;
@@ -186,15 +186,40 @@ mux_4x1_n # (
 		.MUX_OUT(hex7seg_db)
 );
 
+ascii_to_bin ang_uni(
+		.ascii_in(angulo_unidade),
+		.bin_out(ang_unidade),
+);
+
+ascii_to_bin ang_dez(
+		.ascii_in(angulo_dezena),
+		.bin_out(ang_dezena),
+);
+
+ascii_to_bin ang_cen(
+		.ascii_in(angulo_centena),
+		.bin_out(ang_centena),
+);
+
+
+
+
 
 assign db_estado_secundário [7:5] = 3'b000;
 
 assign opt_0 [3:0] = unidade;
-assign opt_0 [3:0] = dezena;
-assign opt_0 [3:0] = centena;
-assign opt_0 [3:0] = db_estado_secundario[3:0];
-assign opt_0 [3:0] = db_estado_secundario[7:4];
-assign opt_0 [3:0] = db_estado;
+assign opt_0 [7:4] = dezena;
+assign opt_0 [11:8] = centena;
+assign opt_0 [15:12] = db_estado_secundario[3:0];
+assign opt_0 [19:16] = db_estado_secundario[7:4];
+assign opt_0 [23:20] = db_estado;
+
+assign opt_1 [3:0] = unidade;
+assign opt_1 [7:4] = dezena;
+assign opt_1 [11:8] = centena;
+assign opt_1 [15:12] = ang_unidade;
+assign opt_1 [19:16] = ang_dezena;
+assign opt_1 [23:20] = ang_centena;
 
 
 assign db_mensurar = s_mensurar;
