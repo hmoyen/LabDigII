@@ -6,30 +6,38 @@ module sonar_tb;
     reg ligar;
     reg echo;
     reg silencio;
+    reg parar;           // Nova entrada adicionada
+    reg [1:0] sel_mux;  // Nova entrada adicionada
     wire trigger;
     wire pwm;
     wire saida_serial;
     wire fim_posicao;
+    wire [6:0] hex0_out, hex1_out, hex2_out, hex3_out, hex4_out, hex5_out; // Saídas adicionais
 
     // Instanciação do DUT (Dispositivo sob Teste)
     sonar DUT (
         .clock(clock),
         .reset(reset),
+        .parar(parar),          // Conectando a nova entrada
         .ligar(ligar),
         .echo(echo),
-        .parar(),
-        .trigger(trigger),
         .silencio(silencio),
+        .sel_mux(sel_mux),      // Conectando o seletor
+        .trigger(trigger),
         .pwm(pwm),
         .saida_serial(saida_serial),
         .fim_posicao(fim_posicao),
-        .medida0(),
-        .medida1(),
-        .medida2(),
+        .hex0_out(hex0_out),    // Saídas adicionais
+        .hex1_out(hex1_out),
+        .hex2_out(hex2_out),
+        .hex3_out(hex3_out),
+        .hex4_out(hex4_out),
+        .hex5_out(hex5_out),
+        .db_timeout(),
         .db_mensurar(),
         .db_saida_serial(),
         .db_trigger(),
-        .db_estado(),
+        .db_pwm(),
         .db_echo()
     );
 
@@ -38,7 +46,7 @@ module sonar_tb;
     // Gerador de clock
     always #(clockPeriod/2) clock = ~clock;
 
-    // Array de casos de teste (estrutura equivalente em Verilog)
+    // Array de casos de teste
     reg [31:0] casos_teste [0:11]; // Usando 32 bits para acomodar o tempo
     integer caso;
 
@@ -67,6 +75,8 @@ module sonar_tb;
         ligar = 0;
         echo  = 0;
         silencio = 0;
+        parar = 0;               // Inicializa a entrada parar
+        sel_mux = 2'b00;         // Inicializa o seletor
         clock = 0;
 
         // Reset
@@ -77,8 +87,8 @@ module sonar_tb;
         reset = 0;
         @(negedge clock);
 
-        // Espera de 100us
-        #(100_000); // 100 us
+        // Espera de 10us
+        #(10_000); // 10 us
         ligar = 1; // Ligar o sonar
         #(5*clockPeriod);
 
@@ -103,12 +113,19 @@ module sonar_tb;
             // 2) Espera envio do trigger
             wait (trigger == 1'b1);
             // 3) Espera por 400us (tempo entre trigger e echo)
-            #(400_000); // 400 us
+            #(10_000); // 400 us
 
-            // 4) Gera pulso de echo
-            echo = 1;
-            #(larguraPulso);
-            echo = 0;
+            // 4) Gera pulso de echo (timeout no caso 4)
+            if (caso == 4) begin
+                $display("Caso %0d: Timeout simulado", caso);
+                echo = 0; // Simula timeout não gerando o pulso echo
+                #(4_000_000);
+                // Deve dar timeout
+            end else begin
+                echo = 1;
+                #(larguraPulso);
+                echo = 0;
+            end
 
             // 5) Espera final da medida
             wait (fim_posicao == 1'b1);
