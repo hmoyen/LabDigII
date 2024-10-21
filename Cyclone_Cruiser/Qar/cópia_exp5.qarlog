@@ -1,0 +1,41 @@
+Quartus Prime Archive log --	C:/Users/vilas/LabDigII/Cyclone_Cruiser/Qar/cópia_exp5.qarlog
+
+Archive:	C:/Users/vilas/LabDigII/Cyclone_Cruiser/Qar/cópia_exp5.qar
+Date:		Mon Oct 21 16:28:42 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/ascii_to_bin.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/assignment_defaults.qdf
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/circuito_pwm.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/comparador_1bit.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/comparador_4bit.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/contador_bcd_3digitos.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/contador_cm.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/contador_cm_fd.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/contador_cm_uc.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/contador_m.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/contadorg_updown_m.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/deslocador_n.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/edge_detector.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/exp5.qpf
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/exp5.qsf
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/gerador_pulso.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/hexa7seg.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/interface_hcsr04.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/interface_hcsr04_fd.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/interface_hcsr04_uc.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/mux_4x1_n.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/registrador_n.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/rom_angulos_8x24.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/sonar.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/sonar_tb.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/trena_digital_fd.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/trena_digital_uc.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/tx_serial_7O1.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/tx_serial_7O1_fd.v
+C:/Users/vilas/Downloads/exp5_p1_vilas_final_restored/tx_serial_uc.v
+	======= Total: 30 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
