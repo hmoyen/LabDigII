@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lena/Lab-DigII/exp5_p1/exp5_mult_sinais_restored/modelsim
+vcomparador_1bit
+Z0 !s110 1729610565
+!i10b 1
+!s100 EG?BO<?5FhmEeZb]0=aR31
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<VZ6Odk=H7OaZ>VHMJ]Tb2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog
+w1729608172
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_1bit.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_1bit.v
+!i122 127
+L0 1 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1729610565.000000
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_1bit.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vcomparador_4bit
+R0
+!i10b 1
+!s100 Q?bzJgOT93=9gD2S45iFO3
+R1
+IG?6;aNX8CFYe7oV>LVeC83
+R2
+R3
+w1729610309
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_4bit.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_4bit.v
+!i122 128
+L0 2 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_4bit.v|
+!i113 1
+R6
+R7
+vcontador_m
+R0
+!i10b 1
+!s100 UMcO@8h3ZmBO;NMlhg]fW2
+R1
+Ib8c[H[>M2L[K:@HSjW^lD2
+R2
+R3
+w1729608008
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/contador_m.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/contador_m.v
+!i122 129
+L0 16 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/contador_m.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/contador_m.v|
+!i113 1
+R6
+R7
+vinterface_wheel
+R0
+!i10b 1
+!s100 h_mLeKb<RRzE;`RkK4@mY2
+R1
+I3Y:6b`Sc40M[V12@V944h3
+R2
+R3
+w1729610436
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel.v
+!i122 130
+L0 1 68
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel.v|
+!i113 1
+R6
+R7
+vinterface_wheel_fd
+R0
+!i10b 1
+!s100 a__GeJ1`X5Bgg:U]enR8H3
+R1
+IfKP;0Q>RmJ3KLG]V@KaJc0
+R2
+R3
+w1729610380
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_fd.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_fd.v
+!i122 131
+L0 1 78
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_fd.v|
+!i113 1
+R6
+R7
+vinterface_wheel_uc
+R0
+!i10b 1
+!s100 4N0H=6:n78VUUha_^`3je3
+R1
+Izb]hBU9WzKb^iX?BH_jP^0
+R2
+R3
+w1729609575
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_uc.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_uc.v
+!i122 132
+L0 1 55
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_uc.v|
+!i113 1
+R6
+R7
+vmux_4x1_n
+R0
+!i10b 1
+!s100 g::K8dVi^EAd>LG4DTfW61
+R1
+IGeoPK?>e<z[N;054<L[N43
+R2
+R3
+Z8 w1729607984
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/mux_4x1_n.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/mux_4x1_n.v
+!i122 133
+L0 17 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/mux_4x1_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/mux_4x1_n.v|
+!i113 1
+R6
+R7
+vregistrador_n
+R0
+!i10b 1
+!s100 c33QzNOWDW9lh[K4:od@l2
+R1
+IMlZ^ZSaHN90_PH0X53nQo3
+R2
+R3
+R8
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/registrador_n.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/registrador_n.v
+!i122 134
+L0 17 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/registrador_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/registrador_n.v|
+!i113 1
+R6
+R7
+vtb_interface_wheel
+R0
+!i10b 1
+!s100 d009Z0:VnMiRB`SNUeT5e2
+R1
+IiVHD5aebRhJGGUiHGjGZe0
+R2
+R3
+w1729610553
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/tb_interface_wheel.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/tb_interface_wheel.v
+!i122 135
+L0 3 79
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/tb_interface_wheel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/tb_interface_wheel.v|
+!i113 1
+R6
+R7

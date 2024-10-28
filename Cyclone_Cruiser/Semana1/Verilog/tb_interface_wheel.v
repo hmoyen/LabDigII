@@ -7,7 +7,7 @@ module tb_interface_wheel;
     reg reset;
     reg A;
     reg B;
-    wire [7:0] count;
+    wire [3:0] count;
     wire CW;
     wire CWW;
 
@@ -36,7 +36,7 @@ module tb_interface_wheel;
         B = 0;
 
         // Aplica o reset no início
-        #20 reset = 0;  // Desativa o reset após 20ns
+        #200 reset = 0;  // Desativa o reset após 20ns
 
         // Simulação do comportamento do encoder (sentido horário - CW)
         #20 A = 1; B = 0;  // Canal A sobe, Canal B está em 0 (movimento CW)
@@ -62,7 +62,7 @@ module tb_interface_wheel;
 		  #20 A = 0; B = 0;
 
         // Simulação de um reset para reiniciar a contagem
-        #20 reset = 1;
+        #200 reset = 1;
         #20 reset = 0;
 
         // Simulação contínua de rotação alternada entre CW e CCW

@@ -1,0 +1,1780 @@
+# Loading project wheel_encoder
+# reading /home/lena/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project cyclone
+# reading /home/lena/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project test_bounce
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+vsim work.tb_interface_wheel
+# vsim work.tb_interface_wheel 
+# Start time: 09:52:18 on Oct 23,2024
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'comparador_4bit'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 73
+# Loading work.hexa7seg
+# Error loading design
+# End time: 09:52:18 on Oct 23,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 7
+vsim work.tb_interface_wheel
+# vsim work.tb_interface_wheel 
+# Start time: 09:53:17 on Oct 23,2024
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'comparador_4bit'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 73
+# Loading work.hexa7seg
+# Error loading design
+# End time: 09:53:17 on Oct 23,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+vsim work.tb_interface_wheel
+# vsim work.tb_interface_wheel 
+# Start time: 09:53:28 on Oct 23,2024
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UC'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/UC File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v Line: 23
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(23): [TFMPC] - Missing connection for port 'db_estado'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/tb_interface_wheel/*
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 90ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 170ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 220ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 240ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 260ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 280ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 350ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(72)
+#    Time: 780 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 72
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UC'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/UC File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v Line: 23
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(23): [TFMPC] - Missing connection for port 'db_estado'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 45ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 50ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 70ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 90ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 110ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 130ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 135ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 220ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 225ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 230ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 250ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 310ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 315ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 405ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 410ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 430ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 450ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 470ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 490ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 495ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 560ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 580ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 585ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 590ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 610ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 630ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 650ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 670ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 675ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 765ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 770ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 790ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 810ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 830ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 850ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 855ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 860ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 945ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 950ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 970ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 990ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1010ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1030ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1035ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1040ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1060ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1080ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1110ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1120ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1125ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1130ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1150ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1170ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1190ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1210ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1215ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1220ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1240ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1260ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1280ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1290ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1300ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1305ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1310ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1330ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1350ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1370ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1390ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1395ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1400ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1420ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1440ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1460ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1470ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(78)
+#    Time: 1860 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 78
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UC'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/UC File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v Line: 23
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(23): [TFMPC] - Missing connection for port 'db_estado'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 90ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 170ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 205ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 230ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 250ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 295ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 430ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 480ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 510ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 560ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 580ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 590ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 600ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 620ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 670ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 750ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 785ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 790ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 810ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 830ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 850ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 870ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 875ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(86)
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 86
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 205ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 230ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 250ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 295ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 390ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 470ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 480ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 550ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 560ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 580ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 600ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 620ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 630ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 710ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 785ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 790ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 810ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 830ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 850ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 870ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 875ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 970ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(86)
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 86
+add wave -position insertpoint sim:/tb_interface_wheel/DUT/UC/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 205ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 230ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 250ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 295ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 390ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 470ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 480ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 550ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 560ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 580ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 600ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 620ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 630ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 710ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 785ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 790ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 810ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 830ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 850ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 870ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 875ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 970ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(86)
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 86
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 205ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 230ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 250ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 295ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 390ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 480ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 510ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 545ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 550ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 570ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 590ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 610ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 630ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 635ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 690ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 800ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 810ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 820ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 840ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 860ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 890ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 960ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 970ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 980ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1000ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1020ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1040ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1050ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1060ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1080ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1125ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1130ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1150ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1170ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1190ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1215ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1220ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1240ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1260ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1280ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1300ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1305ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1310ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1330ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1350ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1370ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1390ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1395ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1400ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1420ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1440ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1450ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1460ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(106)
+#    Time: 1860 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 106
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 205ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 230ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 250ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 295ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 390ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 480ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 545ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 550ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 570ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 590ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 610ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 630ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 635ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 800ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 810ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 820ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 840ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 860ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 890ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 960ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 970ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 980ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1000ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1020ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1040ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1050ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1060ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1080ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1125ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1130ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1150ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1170ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1190ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1215ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1220ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1240ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1260ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1280ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1300ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1305ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1310ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1330ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1350ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1370ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1390ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1395ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1400ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1420ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1440ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1460ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(106)
+#    Time: 1860 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 106
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 205ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 230ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 250ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 295ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 390ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 545ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 550ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 590ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 610ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 630ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 635ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 800ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 810ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 820ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 840ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 860ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 890ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 960ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 970ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 980ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1000ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1020ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1040ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1050ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1060ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1080ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1125ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1130ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1150ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1170ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1190ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1215ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1220ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1240ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1260ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1280ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1300ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1305ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1310ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1350ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1370ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1390ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1395ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1400ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1440ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1460ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(106)
+#    Time: 1860 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 106
+add wave -position insertpoint sim:/tb_interface_wheel/DUT/FD/CONT_CW/*
+add wave -position insertpoint sim:/tb_interface_wheel/DUT/FD/mux_sentido/*
+add wave -position insertpoint sim:/tb_interface_wheel/DUT/FD/CONT_CWW/*
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 205ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 230ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 250ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 270ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 295ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 390ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 580ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 600ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 620ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 790ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 800ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 820ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 840ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 860ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 870ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 950ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 960ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 980ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1000ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1020ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1030ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1040ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1060ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1080ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1100ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1105ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1110ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1130ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1150ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1170ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1190ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1195ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1220ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1240ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1260ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1280ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1290ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1320ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1340ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1360ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1400ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1420ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(102)
+#    Time: 1820 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 102
+add wave -position insertpoint sim:/tb_interface_wheel/DUT/*
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+# Break key hit
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 220ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 240ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 260ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 280ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 330ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 450ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 480ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 530ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 560ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 580ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 600ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 610ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 620ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 690ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 770ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 800ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 820ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 840ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 860ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 890ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 960ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 970ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 980ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1000ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1020ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1040ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1050ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1060ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1080ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1130ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(74)
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 74
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 220ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 240ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 260ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 280ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 370ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 450ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 480ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 530ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 560ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 580ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 600ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 610ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 620ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 690ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 770ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 800ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 820ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 840ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 850ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 860ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 930ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 960ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 980ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1000ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1010ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1020ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1040ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1060ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1080ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1090ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1100ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1140ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1170ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(74)
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 74
+# Compile of ascii_to_bin.v was successful.
+# Compile of circuito_pwm.v was successful.
+# Compile of comparador_1bit.v was successful.
+# Compile of comparador_4bit.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of interface_wheel.v was successful.
+# Compile of interface_wheel_fd.v was successful.
+# Compile of interface_wheel_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of sonar.v was successful.
+# Compile of sonar_tb.v was successful.
+# Compile of tb_interface_wheel.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_interface_wheel
+# Loading work.interface_wheel
+# Loading work.interface_wheel_uc
+# Loading work.interface_wheel_fd
+# Loading work.registrador_n
+# Loading work.contador_m
+# Loading work.mux_4x1_n
+# Loading work.comparador_4bit
+# Loading work.comparador_1bit
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v Line: 15
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'CWW_db'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex0_out'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(15): [TFMPC] - Missing connection for port 'hex1_out'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'comp'.  Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v Line: 69
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'igual'.
+# ** Warning: (vsim-3722) /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v(69): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'HAB'. The port definition is at: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_interface_wheel/DUT/FD/comp/BL3 File: /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v Line: 9
+run -all
+# Tempo = 0ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = x, CWW = x
+# Tempo = 10ns, A = 0, B = 0, Reset = 1, Count =   Z, CW = 1, CWW = 0
+# Tempo = 20ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 40ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 60ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 80ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 220ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 240ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 260ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 280ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 290ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 300ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 320ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 340ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 360ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 370ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 380ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 400ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 420ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 440ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 450ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 460ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 480ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 500ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 520ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 530ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 540ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 560ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 580ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 600ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 610ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 620ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 640ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 660ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 680ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 690ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 700ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 720ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 740ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 760ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 770ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 780ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 800ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 820ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 840ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 850ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 860ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 880ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 900ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 920ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 930ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 940ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 960ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 980ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1000ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1010ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1020ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1040ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1060ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1080ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1090ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1100ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1120ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1140ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1160ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1170ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1180ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1200ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1220ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1240ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1250ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1260ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1280ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1300ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1320ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1330ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1340ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1360ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1380ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1400ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1410ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1420ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1440ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1460ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1480ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1490ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1500ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1520ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1540ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1560ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1570ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1580ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1600ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1620ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1640ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1650ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1660ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1680ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1700ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1720ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1730ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1740ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1760ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1780ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1800ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 1810ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1820ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1840ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1860ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1880ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1890ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1900ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1920ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1940ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1960ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1970ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 1980ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2000ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2020ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2040ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2050ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2060ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2080ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2100ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2120ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2130ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2140ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2160ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2180ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2200ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 1, CWW = 0
+# Tempo = 2210ns, A = 1, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 2220ns, A = 1, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 2240ns, A = 0, B = 1, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 2260ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# Tempo = 2290ns, A = 0, B = 0, Reset = 0, Count =   Z, CW = 0, CWW = 1
+# ** Note: $finish    : /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v(82)
+#    Time: 2660 ns  Iteration: 0  Instance: /tb_interface_wheel
+# 1
+# Break in Module tb_interface_wheel at /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v line 82

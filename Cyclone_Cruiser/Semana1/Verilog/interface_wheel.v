@@ -4,7 +4,7 @@ module interface_wheel (
     input wire reset,       // Sinal de reset
     input wire A,           // Canal A do encoder
     input wire B,           // Canal B do encoder
-    output wire [7:0] count, // Saída do contador
+    output wire [3:0] count, // Saída do contador
 	 output CW,
 	 output CWW
 );
@@ -40,7 +40,7 @@ module interface_wheel (
 registrador_n #(
         .N(1)
     ) regs_cw (
-        .clock  (clock    ),
+        .clock  (clk    ),
         .clear  (reset     ),
         .enable (registra ),
         .D      (conta_cw ),
@@ -50,7 +50,7 @@ registrador_n #(
 registrador_n #(
         .N(1)
     ) regs_cww (
-        .clock  (clock    ),
+        .clock  (clk    ),
         .clear  (reset     ),
         .enable (registra ),
         .D      (conta_cww ),
