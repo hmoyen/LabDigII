@@ -1,9 +1,9 @@
-`timescale 1ns / 1ps
+`timescale 1ns/1ns
 
 module dual_wheel_interface_tb;
 
     // Parâmetros
-    parameter integer DIST_PER_PULSE = 628; // Distância por pulso em mm
+    parameter integer DIST_PER_PULSE = 314159; // Distância por pulso em mm
 
     // Declaração das entradas e saídas do DUT (Design Under Test)
     reg clk;
@@ -14,8 +14,8 @@ module dual_wheel_interface_tb;
     reg B_right;
     wire [31:0] distance_pulse_left;
     wire [31:0] distance_pulse_right;
-    wire signed [31:0]  delta_theta;       // Saída delta theta
-    wire [31:0] average_distance; // Saída distância média
+    wire signed [63:0]  delta_theta;       // Saída delta theta
+    wire signed [31:0] average_distance; // Saída distância média
 
     // Instancia o módulo dual_wheel_interface como DUT
     dual_wheel_interface #(
@@ -27,8 +27,8 @@ module dual_wheel_interface_tb;
         .B_left(B_left),
         .A_right(A_right),
         .B_right(B_right),
-        .distance_pulse_left(distance_pulse_left),
-        .distance_pulse_right(distance_pulse_right),
+        .db_distance_left(distance_pulse_left),
+        .db_distance_right(distance_pulse_right),
         .delta_theta(delta_theta),
         .average_distance(average_distance)
     );
@@ -50,6 +50,7 @@ module dual_wheel_interface_tb;
 
         // Aplica o reset no início
         #60 reset = 0;  // Desativa o reset após 60ns
+        // 1
 
         // Simulação de comportamento do encoder para a roda esquerda (1 volta CW)
         repeat(1) begin
@@ -61,15 +62,16 @@ module dual_wheel_interface_tb;
 
         // Simulação de comportamento do encoder para a roda direita (1 volta CCW)
         repeat(1) begin
-            #60 A_right = 0; B_right = 1;
+            #30000 A_right = 0; B_right = 1;
             #60 A_right = 1; B_right = 1;
             #60 A_right = 1; B_right = 0;
             #60 A_right = 0; B_right = 0;
+            
         end
 
         // Simulação de comportamento com bounce no sinal A da roda esquerda (1 volta CW com bounce)
         repeat(1) begin
-            #60 A_left = 1; B_left = 0;
+            #30000 A_left = 1; B_left = 0;
             #5  A_left = 0;  // Bounce em A_left
             #5  A_left = 1;  // Bounce resolvido
             #60 A_left = 1; B_left = 1;
@@ -79,7 +81,7 @@ module dual_wheel_interface_tb;
 
         // Simulação para comportamento com bounce no sinal B da roda direita (1 volta CCW com bounce)
         repeat(1) begin
-            #60 A_right = 0; B_right = 1;
+            #30000 A_right = 0; B_right = 1;
             #5  B_right = 0;  // Bounce em B_right
             #5  B_right = 1;  // Bounce resolvido
             #60 A_right = 1; B_right = 1;
@@ -90,7 +92,7 @@ module dual_wheel_interface_tb;
         // Simulação para contar voltas adicionais (2 voltas CW na roda esquerda e 2 voltas CW na roda direita)
         repeat(2) begin
             // Movimento CW na roda esquerda
-            #60 A_left = 1; B_left = 0; A_right = 1; B_right = 0;     // Canal A da roda esquerda sobe
+            #30000 A_left = 1; B_left = 0; A_right = 1; B_right = 0;     // Canal A da roda esquerda sobe
             #60 A_left = 1; B_left = 1; A_right = 1; B_right = 1;    // Ambos os canais da roda esquerda altos
             #60 A_left = 0; B_left = 1; A_right = 0; B_right = 1;    // Canal B da roda esquerda sobe
             #60 A_left = 0; B_left = 0; A_right = 0; B_right = 0;    // Ambos os canais da roda esquerda baixos
