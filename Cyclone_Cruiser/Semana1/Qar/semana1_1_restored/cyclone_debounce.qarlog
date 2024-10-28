@@ -1,0 +1,46 @@
+Quartus Prime Archive log --	/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/cyclone_debounce.qarlog
+
+Archive:	/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/cyclone_debounce.qar
+Date:		Wed Oct 23 11:02:05 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/ascii_to_bin.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/assignment_defaults.qdf
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/circuito_pwm.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_bcd_3digitos.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_fd.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_uc.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_m.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contadorg_updown_m.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/deslocador_n.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/edge_detector.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/exp5.qpf
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/exp5.qsf
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/exp5_assignment_defaults.qdf
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/gerador_pulso.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/hexa7seg.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_fd.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_uc.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_uc.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/mux_4x1_n.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/registrador_n.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/rom_angulos_8x24.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar_tb.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_fd.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_uc.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1_fd.v
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_uc.v
+	======= Total: 35 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

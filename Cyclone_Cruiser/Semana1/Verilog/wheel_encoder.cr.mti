@@ -1,0 +1,57 @@
+/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/contador_m.v {1 {vlog -work work -stats=none /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/contador_m.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module contador_m
+
+Top level modules:
+	contador_m
+
+} {} {}} /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_fd.v {1 {vlog -work work -stats=none /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_fd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module interface_wheel_fd
+
+Top level modules:
+	interface_wheel_fd
+
+} {} {}} /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/tb_interface_wheel.v {1 {vlog -work work -stats=none /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/tb_interface_wheel.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_interface_wheel
+
+Top level modules:
+	tb_interface_wheel
+
+} {} {}} /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_4bit.v {1 {vlog -work work -stats=none /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_4bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparador_4bit
+
+Top level modules:
+	comparador_4bit
+
+} {} {}} /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/registrador_n.v {1 {vlog -work work -stats=none /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/registrador_n.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registrador_n
+
+Top level modules:
+	registrador_n
+
+} {} {}} /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/mux_4x1_n.v {1 {vlog -work work -stats=none /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/mux_4x1_n.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_4x1_n
+
+Top level modules:
+	mux_4x1_n
+
+} {} {}} /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_1bit.v {1 {vlog -work work -stats=none /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/comparador_1bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparador_1bit
+
+Top level modules:
+	comparador_1bit
+
+} {} {}} /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_uc.v {1 {vlog -work work -stats=none /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog/interface_wheel_uc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module interface_wheel_uc
+
+Top level modules:
+	interface_wheel_uc
+
+} {} {}}

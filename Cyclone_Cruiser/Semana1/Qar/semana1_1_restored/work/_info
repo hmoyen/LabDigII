@@ -1,0 +1,726 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Verilog
+vascii_to_bin
+Z0 !s110 1729694711
+!i10b 1
+!s100 H1S[mEMkU3>JAZ58o2ZH81
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@9OHJCbQVIDX2Yg>iTE2F3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored
+w1728678297
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/ascii_to_bin.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/ascii_to_bin.v
+!i122 341
+Z4 L0 1 12
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1729694711.000000
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/ascii_to_bin.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/ascii_to_bin.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vcircuito_pwm
+R0
+!i10b 1
+!s100 ^m8O=:d<:c0hZXQkWi1NJ0
+R1
+I]88QRbcSmT@l3HSUeK1V_0
+R2
+R3
+w1728671520
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/circuito_pwm.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/circuito_pwm.v
+!i122 342
+L0 15 60
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/circuito_pwm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/circuito_pwm.v|
+!i113 1
+R7
+R8
+vcomparador_1bit
+R0
+!i10b 1
+!s100 EG?BO<?5FhmEeZb]0=aR31
+R1
+IzV>@]aj[8kb4P<jZ^llmh2
+R2
+R3
+w1729090313
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v
+!i122 343
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_1bit.v|
+!i113 1
+R7
+R8
+vcomparador_4bit
+R0
+!i10b 1
+!s100 Q?bzJgOT93=9gD2S45iFO3
+R1
+IQ4kXc6VUDjcE:U`1I49221
+R2
+R3
+w1729090474
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v
+!i122 344
+L0 2 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/comparador_4bit.v|
+!i113 1
+R7
+R8
+vcontador_bcd_3digitos
+R0
+!i10b 1
+!s100 zW<M=cLMB`1^LR818CPz@1
+R1
+IG2>_ZJ;okl:Q5Gc2kMUoG3
+R2
+R3
+Z9 w1726236086
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_bcd_3digitos.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_bcd_3digitos.v
+!i122 345
+L0 14 45
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_bcd_3digitos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_bcd_3digitos.v|
+!i113 1
+R7
+R8
+vcontador_cm
+R0
+!i10b 1
+!s100 b6D0JoTDlG5A?L@JkZ4VQ3
+R1
+IXVNdkSXMR@j=i=Z>4?4JU2
+R2
+R3
+R9
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm.v
+!i122 346
+L0 15 53
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm.v|
+!i113 1
+R7
+R8
+vcontador_cm_fd
+R0
+!i10b 1
+!s100 @3cAo8S<DolV5@b:PSKZI3
+R1
+ImJkObTk?U;nAh^=Idh[CN1
+R2
+R3
+R9
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_fd.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_fd.v
+!i122 347
+L0 15 43
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_fd.v|
+!i113 1
+R7
+R8
+vcontador_cm_uc
+R0
+!i10b 1
+!s100 oP?IM9_Uf<e1:A`=1^HRE1
+R1
+IbGEQ7_hi4^^`fe>Wl2lRa2
+R2
+R3
+w1726246393
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_uc.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_uc.v
+!i122 348
+L0 16 53
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_cm_uc.v|
+!i113 1
+R7
+R8
+vcontador_m
+R0
+!i10b 1
+!s100 UMcO@8h3ZmBO;NMlhg]fW2
+R1
+IL`kV>zbFP>nhXoi]YNa@M3
+R2
+R3
+R9
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_m.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_m.v
+!i122 349
+L0 16 38
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_m.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contador_m.v|
+!i113 1
+R7
+R8
+vcontadorg_updown_m
+R0
+!i10b 1
+!s100 dU]iBHe0;=bD7a^2T6<842
+R1
+IL^PBECVVf];EAFOhl@;bW3
+R2
+R3
+w1728318650
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contadorg_updown_m.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contadorg_updown_m.v
+!i122 350
+L0 5 58
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contadorg_updown_m.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/contadorg_updown_m.v|
+!i113 1
+R7
+R8
+vdeslocador_n
+R0
+!i10b 1
+!s100 ekUiQZ6Ef_XO5Z3[98`6X2
+R1
+I1B]JPgF8FG?AR8JP0m?fJ0
+R2
+R3
+w1724795101
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/deslocador_n.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/deslocador_n.v
+!i122 351
+L0 15 31
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/deslocador_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/deslocador_n.v|
+!i113 1
+R7
+R8
+vedge_detector
+R0
+!i10b 1
+!s100 AEDYJD37[Ybb^@2QMVV>20
+R1
+InJAf^40g:S3PzRaomHQz41
+R2
+R3
+R9
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/edge_detector.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/edge_detector.v
+!i122 352
+L0 19 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/edge_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/edge_detector.v|
+!i113 1
+R7
+R8
+vgerador_pulso
+R0
+!i10b 1
+!s100 8AoYG=9jUP9YV[a7R[WFO1
+R1
+I^?b9@4<4K7LJKO^>`BXm41
+R2
+R3
+R9
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/gerador_pulso.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/gerador_pulso.v
+!i122 353
+L0 14 69
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/gerador_pulso.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/gerador_pulso.v|
+!i113 1
+R7
+R8
+vhexa7seg
+R0
+!i10b 1
+!s100 :20kA`7`L0gDF2=JFj`=l2
+R1
+IU89Mb7ZKQ2ZHf^mz<Y15F1
+R2
+R3
+R9
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/hexa7seg.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/hexa7seg.v
+!i122 354
+L0 22 38
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/hexa7seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/hexa7seg.v|
+!i113 1
+R7
+R8
+vinterface_hcsr04
+R0
+!i10b 1
+!s100 L=9NH]4c9Z@cID^5SMLeT0
+R1
+I:z6k;INXF@dldj>92PjDP1
+R2
+R3
+R9
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04.v
+!i122 355
+L0 13 49
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04.v|
+!i113 1
+R7
+R8
+vinterface_hcsr04_fd
+R0
+!i10b 1
+!s100 ZMVhMlTDmO;P;KZElDk4j3
+R1
+IbFEEDKK4goN[=W9IniK7O3
+R2
+R3
+w1726244476
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_fd.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_fd.v
+!i122 356
+L0 14 54
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_fd.v|
+!i113 1
+R7
+R8
+vinterface_hcsr04_uc
+R0
+!i10b 1
+!s100 K^102E7XRG740_]5b4j<N1
+R1
+I5L8[Nzb9PhCI89NDg4F4V3
+R2
+R3
+w1726250419
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_uc.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_uc.v
+!i122 357
+L0 14 68
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_hcsr04_uc.v|
+!i113 1
+R7
+R8
+vinterface_wheel
+R0
+!i10b 1
+!s100 Mgn^hc9T4oadYo4b<EW@a3
+R1
+IF3^_E=RW__;<T4JKKim^G0
+R2
+R3
+w1729691399
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v
+!i122 358
+L0 1 86
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel.v|
+!i113 1
+R7
+R8
+vinterface_wheel_fd
+R0
+!i10b 1
+!s100 Df_Io0MoKojmWoiWPjf4B3
+R1
+Ij:ONNTd`9z3l0[eoFK`Lf2
+R2
+R3
+w1729687988
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v
+!i122 359
+L0 1 80
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_fd.v|
+!i113 1
+R7
+R8
+vinterface_wheel_uc
+R0
+!i10b 1
+!s100 __T<AeXXcXT6j53hag`?33
+R1
+Izj<9U:kTLSL?eG116zcEl1
+R2
+R3
+w1729691393
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_uc.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_uc.v
+!i122 360
+L0 1 105
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/interface_wheel_uc.v|
+!i113 1
+R7
+R8
+vmux_4x1_n
+R0
+!i10b 1
+!s100 g::K8dVi^EAd>LG4DTfW61
+R1
+ImT[PZRA3ZP^j?k20V67?P2
+R2
+R3
+w1726871678
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/mux_4x1_n.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/mux_4x1_n.v
+!i122 361
+L0 17 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/mux_4x1_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/mux_4x1_n.v|
+!i113 1
+R7
+R8
+vregistrador_n
+R0
+!i10b 1
+!s100 c33QzNOWDW9lh[K4:od@l2
+R1
+I=c9An84ReK?md>9bP?KlH3
+R2
+R3
+R9
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/registrador_n.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/registrador_n.v
+!i122 362
+L0 17 20
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/registrador_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/registrador_n.v|
+!i113 1
+R7
+R8
+vrom_angulos_8x24
+R0
+!i10b 1
+!s100 iU:gUEgTTlQQoI>SMjI]_2
+R1
+ITB[FDKCkQ[J5JYkjd>eO40
+R2
+R3
+w1727880617
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/rom_angulos_8x24.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/rom_angulos_8x24.v
+!i122 363
+L0 5 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/rom_angulos_8x24.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/rom_angulos_8x24.v|
+!i113 1
+R7
+R8
+vsonar
+R0
+!i10b 1
+!s100 aIU;=QN?_n9zbVIOb?2G33
+R1
+IW6lE3KBXKHI63e2aXHVXM3
+R2
+R3
+w1729092284
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar.v
+!i122 364
+L0 1 261
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar.v|
+!i113 1
+R7
+R8
+vsonar_tb
+R0
+!i10b 1
+!s100 cZKYnRanR8h5:I^TDXG;P3
+R1
+I8`CPKiQU593AKV1_?IZR;3
+R2
+R3
+w1729087321
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar_tb.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar_tb.v
+!i122 365
+L0 3 142
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/sonar_tb.v|
+!i113 1
+R7
+R8
+vtb_interface_wheel
+R0
+!i10b 1
+!s100 mz_U<`YlUJCjmV^`@4^7i0
+R1
+IaGe=;WWj^og_jH[JWz9290
+R2
+R3
+w1729694703
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v
+!i122 366
+L0 3 89
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tb_interface_wheel.v|
+!i113 1
+R7
+R8
+vtrena_digital_fd
+Z10 !s110 1729694712
+!i10b 1
+!s100 FkM[XYlWQhB=:okMb>_gN3
+R1
+I039mE46>nj<5A;;]8cLVS2
+R2
+R3
+w1729091462
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_fd.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_fd.v
+!i122 367
+L0 1 146
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_fd.v|
+!i113 1
+R7
+R8
+vtrena_digital_uc
+R10
+!i10b 1
+!s100 M:Ue[_ad]DaKAhzP@a7@M1
+R1
+IMXc6?z`_6b?X_B=cD>IkC3
+R2
+R3
+w1729091612
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_uc.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_uc.v
+!i122 368
+L0 1 75
+R5
+r1
+!s85 0
+31
+Z11 !s108 1729694712.000000
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/trena_digital_uc.v|
+!i113 1
+R7
+R8
+vtx_serial_7O1
+R10
+!i10b 1
+!s100 GBRaSoI^4O2ioP0Ue>UeP1
+R1
+I[:YH4zWGIa0bU;Nhi>41F0
+R2
+R3
+w1725827376
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1.v
+!i122 369
+L0 5 87
+R5
+r1
+!s85 0
+31
+R11
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1.v|
+!i113 1
+R7
+R8
+ntx_serial_7@o1
+vtx_serial_7O1_fd
+R10
+!i10b 1
+!s100 j9LboW5WfS0PLV6fEj5gG0
+R1
+I<4BSZVnEK;f:U99jG3M7k3
+R2
+R3
+w1725827402
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1_fd.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1_fd.v
+!i122 370
+L0 5 53
+R5
+r1
+!s85 0
+31
+R11
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_7O1_fd.v|
+!i113 1
+R7
+R8
+ntx_serial_7@o1_fd
+vtx_serial_uc
+R10
+!i10b 1
+!s100 E8o;>OLQ7g9]zZBKTLi@h3
+R1
+In5KzRWfe__TWYD4X9;[`@2
+R2
+R3
+w1724798621
+8/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_uc.v
+F/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_uc.v
+!i122 371
+L0 16 64
+R5
+r1
+!s85 0
+31
+R11
+!s107 /home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lena/Lab-DigII/repo/LabDigII/Cyclone_Cruiser/Qar/semana1_1_restored/tx_serial_uc.v|
+!i113 1
+R7
+R8
