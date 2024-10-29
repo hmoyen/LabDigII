@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module dual_wheel_interface_tb;
+module odometry_tb;
 
     // Parâmetros
     parameter integer DIST_PER_PULSE = 314159; // Distância por pulso em mm
@@ -12,13 +12,12 @@ module dual_wheel_interface_tb;
     reg B_left;
     reg A_right;
     reg B_right;
-    wire [31:0] distance_pulse_left;
-    wire [31:0] distance_pulse_right;
-    wire signed [63:0]  delta_theta;       // Saída delta theta
-    wire signed [31:0] average_distance; // Saída distância média
+    wire [31:0] x;
+    wire [31:0] y;
+    wire signed [63:0] theta; // Saída distância média
 
     // Instancia o módulo dual_wheel_interface como DUT
-    dual_wheel_interface #(
+    odometry #(
         .DIST_PER_PULSE(DIST_PER_PULSE)
     ) DUT (
         .clk(clk),
@@ -27,10 +26,9 @@ module dual_wheel_interface_tb;
         .B_left(B_left),
         .A_right(A_right),
         .B_right(B_right),
-        .db_distance_left(distance_pulse_left),
-        .db_distance_right(distance_pulse_right),
-        .delta_theta(delta_theta),
-        .average_distance(average_distance)
+        .x(x),
+        .y(y),
+        .theta(theta)
     );
 
     // Gera o clock (50 MHz)
@@ -99,13 +97,13 @@ module dual_wheel_interface_tb;
         end
 
         // Termina a simulação
-        #400 $finish;
+        #40000 $finish;
     end
 
     // Monitorar os sinais durante a simulação
     initial begin
-        $monitor("Tempo = %0dns | A_left = %b, B_left = %b, Distancia Esquerda = %d | A_right = %b, B_right = %b, Distancia Direita = %d | Delta Theta = %d | Distância Média = %d", 
-                  $time, A_left, B_left, distance_pulse_left, A_right, B_right, distance_pulse_right, delta_theta, average_distance);
+        $monitor("Tempo = %0dns | A_left = %b, B_left = %b | A_right = %b, B_right = %b | Delta Theta = %d ", 
+                  $time, A_left, B_left, A_right, B_right, theta);
     end
 
 endmodule
