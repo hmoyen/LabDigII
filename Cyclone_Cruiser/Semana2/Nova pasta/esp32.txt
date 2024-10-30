@@ -1,0 +1,30 @@
+#define PIN_SIGNAL_1 34  // Pino para sinal 1
+#define PIN_SIGNAL_2 35  // Pino para sinal 2
+#define PIN_SIGNAL_3 32  // Pino para sinal 3
+#define PIN_SIGNAL_4 33  // Pino para sinal 4
+
+void setup() {
+    Serial.begin(115200);
+
+    // Configura os pinos de entrada
+    pinMode(PIN_SIGNAL_1, INPUT);
+    pinMode(PIN_SIGNAL_2, INPUT);
+    pinMode(PIN_SIGNAL_3, INPUT);
+    pinMode(PIN_SIGNAL_4, INPUT);
+}
+
+void loop() {
+    // Lê os sinais de 3.3V
+    bool signal1 = digitalRead(PIN_SIGNAL_1);
+    bool signal2 = digitalRead(PIN_SIGNAL_2);
+    bool signal3 = digitalRead(PIN_SIGNAL_3);
+    bool signal4 = digitalRead(PIN_SIGNAL_4);
+
+    // Para depuração
+    Serial.print("Signal 1: "); Serial.println(signal1);
+    Serial.print("Signal 2: "); Serial.println(signal2);
+    Serial.print("Signal 3: "); Serial.println(signal3);
+    Serial.print("Signal 4: "); Serial.println(signal4);
+    
+    delay(100);  // Ajuste conforme necessário
+}
