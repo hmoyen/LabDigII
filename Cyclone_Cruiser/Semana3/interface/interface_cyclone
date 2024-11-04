@@ -1,0 +1,67 @@
+import tkinter as tk
+import bluetooth
+
+class CarrinhoApp:
+    def __init__(self, master):
+        self.master = master
+        master.title("Interface do Carrinho")
+
+        self.label_distancia = tk.Label(master, text="Distância: 0 m")
+        self.label_distancia.pack()
+
+        self.label_angulacao = tk.Label(master, text="Ângulo: 0°")
+        self.label_angulacao.pack()
+
+        self.botaoconectar = tk.Button(master, text="Conectar", command=self.conectar)
+        self.botaoconectar.pack()
+
+        self.botaodesconectar = tk.Button(master, text="Desconectar", command=self.desconectar)
+        self.botaodesconectar.pack()
+
+        self.texto = tk.Text(master, height=10, width=50)
+        self.texto.pack()
+
+        self.socket = None
+
+    def conectar(self):
+        target_name = "ESP32_FPGASerial"
+        target_address = None
+
+        # Busca o endereço Bluetooth do dispositivo
+        nearby_devices = bluetooth.discover_devices()
+        for addr in nearby_devices:
+            if target_name == bluetooth.lookup_name(addr):
+                target_address = addr
+                break
+
+        if target_address is not None:
+            self.socket = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+            self.socket.connect((target_address, 1))
+            self.texto.insert(tk.END, "Conectado a {}\n".format(target_name))
+            self.leitura_dados()
+        else:
+            self.texto.insert(tk.END, "Dispositivo não encontrado.\n")
+
+    def desconectar(self):
+        if self.socket:
+            self.socket.close()
+            self.texto.insert(tk.END, "Desconectado.\n")
+
+    def leitura_dados(self):
+        if self.socket:
+            try:
+                while True:
+                    data = self.socket.recv(1024).decode('utf-8')
+                    if data:
+                        distancia, angulacao = data.split(',')
+                        self.label_distancia.config(text=f"Distância: {distancia} m")
+                        self.label_angulacao.config(text=f"Ângulo: {angulacao}°")
+                    self.master.update()
+            except bluetooth.btcommon.BluetoothError as e:
+                self.texto.insert(tk.END, f"Erro: {str(e)}\n")
+                self.desconectar()
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = CarrinhoApp(root)
+    root.mainloop()
