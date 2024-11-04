@@ -1,0 +1,82 @@
+#include <BluetoothSerial.h>
+
+#define PIN_SIGNAL_1 14  // Pino para sinal 1
+#define PIN_SIGNAL_2 15  // Pino para sinal 2
+#define PIN_SIGNAL_3 16  // Pino para sinal 3
+#define PIN_SIGNAL_4 17  // Pino para sinal 4
+
+#define PIN_OUTPUT_1 23  // Pino de saída para sinal 1
+#define PIN_OUTPUT_2 22  // Pino de saída para sinal 2
+#define PIN_OUTPUT_3 21  // Pino de saída para sinal 3
+#define PIN_OUTPUT_4 19  // Pino de saída para sinal 4
+
+BluetoothSerial SerialBT;
+
+// Definindo a UART para usar pinos específicos
+HardwareSerial MySerial(1); // 1 é a UART1
+
+void setup() {
+  // Inicia a comunicação serial
+  Serial.begin(115200);  // Serial Monitor
+  SerialBT.begin("ESP32_FPGASerial"); // Nome do dispositivo Bluetooth
+
+  // Iniciando a comunicação serial com a FPGA
+  MySerial.begin(115200, SERIAL_8N1, 40, 41); // RX, TX 
+  Serial.println("Bluetooth iniciado, aguardando conexão...");
+
+  pinMode(PIN_SIGNAL_1, INPUT);
+  pinMode(PIN_SIGNAL_2, INPUT);
+  pinMode(PIN_SIGNAL_3, INPUT);
+  pinMode(PIN_SIGNAL_4, INPUT);
+
+  // Configura os pinos de saída
+  pinMode(PIN_OUTPUT_1, OUTPUT);
+  pinMode(PIN_OUTPUT_2, OUTPUT);
+  pinMode(PIN_OUTPUT_3, OUTPUT);
+  pinMode(PIN_OUTPUT_4, OUTPUT);
+  
+  // Inicializa as saídas como LOW
+  digitalWrite(PIN_OUTPUT_1, LOW);
+  digitalWrite(PIN_OUTPUT_2, LOW);
+  digitalWrite(PIN_OUTPUT_3, LOW);
+  digitalWrite(PIN_OUTPUT_4, LOW);
+}
+
+void loop() {
+  // Verifica se há dados recebidos via Bluetooth
+  if (SerialBT.available()) {
+    char incomingByte = SerialBT.read(); // Lê o byte recebido
+    Serial.print("Recebido via Bluetooth: ");
+    Serial.println(incomingByte);
+
+    // Enviar o byte recebido para a FPGA via serial
+    MySerial.write(incomingByte);
+  }
+
+  // Verifica se há dados recebidos da FPGA
+  if (MySerial.available()) {
+    char incomingByte = MySerial.read(); // Lê o byte recebido
+    SerialBT.write(incomingByte); // Envia via Bluetooth
+    Serial.print("Enviado via Bluetooth: ");
+    Serial.println(incomingByte);
+  }
+
+  // Lê os sinais de entrada e ativa as saídas correspondentes
+  bool signal1 = digitalRead(PIN_SIGNAL_1);
+  bool signal2 = digitalRead(PIN_SIGNAL_2);
+  bool signal3 = digitalRead(PIN_SIGNAL_3);
+  bool signal4 = digitalRead(PIN_SIGNAL_4);
+
+  Serial.print("Signal 1: "); Serial.println(signal1);
+  Serial.print("Signal 2: "); Serial.println(signal2);
+  Serial.print("Signal 3: "); Serial.println(signal3);
+  Serial.print("Signal 4: "); Serial.println(signal4);
+
+  // Atualiza as saídas de acordo com os sinais de entrada
+  digitalWrite(PIN_OUTPUT_1, signal1 ? HIGH : LOW);
+  digitalWrite(PIN_OUTPUT_2, signal2 ? HIGH : LOW);
+  digitalWrite(PIN_OUTPUT_3, signal3 ? HIGH : LOW);
+  digitalWrite(PIN_OUTPUT_4, signal4 ? HIGH : LOW);
+
+  delay(100); // Aguarda um pouco para evitar leituras muito rápidas
+}
