@@ -1,0 +1,209 @@
+#include "BluetoothSerial.h"
+
+
+// #define PIN_SIGNAL_1 14  // 
+// #define PIN_SIGNAL_2 15  // 
+// #define PIN_SIGNAL_3 4  // 
+// #define PIN_SIGNAL_4 18  // 
+
+const int PIN_OUTPUT_1 = 13  //saída motor1 
+const int PIN_OUTPUT_2 = 22  //saida motor2
+const int PIN_OUTPUT_3 = 23  //saida motor3
+const int PIN_OUTPUT_4 = 16  //saida motor4
+const int PIN_OUTPUT_5 = 17  //saida velocidade1 
+const int PIN_OUTPUT_6 = 18// saida velocidade2
+const int PIN_OUTPUT_7 = 19 // 
+const int PIN_OUTPUT_8 = 21// 
+
+BluetoothSerial SerialBT;
+
+
+
+
+int velocidade = 0;
+volatile char comando;
+
+void setup() {
+
+
+
+
+  Serial.begin(115200);
+  Serial.println("Inicializando Bluetooth...");
+if(SerialBT.begin("Carrinho")) {
+  Serial.println("Bluetooth iniciado com sucesso!");
+} else {
+  Serial.println("Falha ao iniciar Bluetooth");
+}
+
+
+//  pinMode(PIN_SIGNAL_1, INPUT);
+//   pinMode(PIN_SIGNAL_2, INPUT);
+//   pinMode(PIN_SIGNAL_3, INPUT);
+//   pinMode(PIN_SIGNAL_4, INPUT);
+
+  // Configura os pinos de saída
+  pinMode(PIN_OUTPUT_1, OUTPUT);
+  pinMode(PIN_OUTPUT_2, OUTPUT);
+  pinMode(PIN_OUTPUT_3, OUTPUT);
+  pinMode(PIN_OUTPUT_4, OUTPUT);
+
+  // Inicializa as saídas como LOW
+  digitalWrite(PIN_OUTPUT_1, LOW);
+  digitalWrite(PIN_OUTPUT_2, LOW);
+  digitalWrite(PIN_OUTPUT_3, LOW);
+  digitalWrite(PIN_OUTPUT_4, LOW);
+  
+  Serial.println("Fim Setup");
+
+
+  delay(2000);
+}
+
+
+void loop() {
+
+
+  if (SerialBT.available()) {
+     comando = SerialBT.read();
+   Serial.print("Recebido via Bluetooth: ");
+    Serial.println(comando);
+
+   
+  
+  }
+
+
+
+switch (velocidade){
+  case 0:
+  {
+  digitalWrite(PIN_OUTPUT_5, LOW);
+  digitalWrite(PIN_OUTPUT_5, LOW);
+  break;
+  }
+  case 1:
+  {
+  digitalWrite(PIN_OUTPUT_5, HIGH);
+  digitalWrite(PIN_OUTPUT_5, LOW);
+  break;
+  }
+  case 2:
+  {
+  digitalWrite(PIN_OUTPUT_5, LOW);
+  digitalWrite(PIN_OUTPUT_5, HIGH);
+  break;
+  }
+  case 3:
+  {
+  digitalWrite(PIN_OUTPUT_5, HIGH);
+  digitalWrite(PIN_OUTPUT_5, HIGH);
+  break;
+  }
+  
+}
+
+
+
+  switch (comando) {
+    case 'S':
+      {  //move frente
+        Serial.printf("Parado \n");
+        digitalWrite(PIN_OUTPUT_1, LOW);
+        digitalWrite(PIN_OUTPUT_2, LOW);
+        digitalWrite(PIN_OUTPUT_3, LOW);
+        digitalWrite(PIN_OUTPUT_4, LOW);
+        break;
+      }
+    case 'F':
+      {  //move frente
+        Serial.printf("Frente \n");
+        digitalWrite(PIN_OUTPUT_1, HIGH);
+        digitalWrite(PIN_OUTPUT_2, LOW);
+        digitalWrite(PIN_OUTPUT_3, LOW);
+        digitalWrite(PIN_OUTPUT_4, HIGH);
+        break;
+      }
+    case 'B':
+      {  //move frente
+        Serial.printf("tras \n");
+        digitalWrite(PIN_OUTPUT_1, LOW);
+        digitalWrite(PIN_OUTPUT_2, HIGH);
+        digitalWrite(PIN_OUTPUT_3, HIGH);
+        digitalWrite(PIN_OUTPUT_4, LOW);
+        break;
+      }
+    case 'L':
+      {  //move frente
+        Serial.printf("esquerda \n");
+        digitalWrite(PIN_OUTPUT_1, HIGH);
+        digitalWrite(PIN_OUTPUT_2, LOW);
+        digitalWrite(PIN_OUTPUT_3, HIGH);
+        digitalWrite(PIN_OUTPUT_4, LOW);
+        break;
+      }
+    case 'R':
+      {  //move frente
+        Serial.printf("direita \n");
+        digitalWrite(PIN_OUTPUT_1, LOW);
+        digitalWrite(PIN_OUTPUT_2, HIGH);
+        digitalWrite(PIN_OUTPUT_3, LOW);
+        digitalWrite(PIN_OUTPUT_4, HIGH);
+        break;
+      }
+    case 'Q':
+      {  //move frente
+        Serial.printf("Frente \n");
+        digitalWrite(PIN_OUTPUT_1, HIGH);
+        digitalWrite(PIN_OUTPUT_2, LOW);
+        digitalWrite(PIN_OUTPUT_3, LOW);
+        digitalWrite(PIN_OUTPUT_4, LOW);
+        break;
+      } 
+    case 'E':
+      {  //move frente
+        Serial.printf("Frente \n");
+        digitalWrite(PIN_OUTPUT_1, LOW);
+        digitalWrite(PIN_OUTPUT_2, LOW);
+        digitalWrite(PIN_OUTPUT_3, LOW);
+        digitalWrite(PIN_OUTPUT_4, HIGH);
+        break;
+      } 
+    case 'C':
+      {  //move frente
+        Serial.printf("Frente \n");
+        digitalWrite(PIN_OUTPUT_1, LOW);
+        digitalWrite(PIN_OUTPUT_2, LOW);
+        digitalWrite(PIN_OUTPUT_3, HIGH);
+        digitalWrite(PIN_OUTPUT_4, LOW);
+        break;
+      } 
+    case 'Z':
+      {  //move frente
+        Serial.printf("Frente \n");
+        digitalWrite(PIN_OUTPUT_1, LOW);
+        digitalWrite(PIN_OUTPUT_2, HIGH);
+        digitalWrite(PIN_OUTPUT_3, LOW);
+        digitalWrite(PIN_OUTPUT_4, LOW);
+        break;
+      }  
+
+    case 'X':
+      {  //move frente
+        Serial.printf("desacelera \n");
+        if (velocidade > 0){
+          velocidade--;
+        }
+        break;
+      }   
+    case 'Y':
+      {  //move frente
+        Serial.printf("acelera \n");
+        if (velocidade < 3){
+          velocidade++;
+        }
+        break;
+      }
+  }
+  delay(2000);
+}
