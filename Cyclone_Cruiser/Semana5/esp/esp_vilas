@@ -5,12 +5,12 @@
 //const int PIN_SIGNAL_2 4  // entrada velocidade 2
  
 
-const int PIN_OUTPUT_1 = 13;  //saída motor1 
-const int PIN_OUTPUT_2 = 22;  //saida motor2
-const int PIN_OUTPUT_3 = 23;  //saida motor3
-const int PIN_OUTPUT_4 = 16;  //saida motor4
-const int PIN_OUTPUT_5 = 17;  //saida velocidade1 
-const int PIN_OUTPUT_6 = 18;// saida velocidade2
+const int PIN_OUTPUT_1 = 25;  //saída motor1 
+const int PIN_OUTPUT_2 = 26;  //saida motor2
+const int PIN_OUTPUT_3 = 32;  //saida motor3
+const int PIN_OUTPUT_4 = 33;  //saida motor4
+const int PIN_OUTPUT_5 = 17;  //saida velocidade0
+const int PIN_OUTPUT_6 = 18;// saida velocidade1
 const int PIN_OUTPUT_7 = 19; // 
 const int PIN_OUTPUT_8 = 21;// 
 
@@ -208,5 +208,5 @@ switch (velocidade){
         break;
       }
   }
-  delay(2000);
+  delay(10);
 }
