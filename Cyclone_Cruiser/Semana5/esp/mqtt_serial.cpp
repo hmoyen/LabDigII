@@ -10,10 +10,10 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 // Digital pin definitions for rotation
-const int pin_rotation_cw_right = 27;  // CW Right rotation pin
-const int pin_rotation_ccw_right = 25; // CCW Right rotation pin
-const int pin_rotation_cw_left = 26;    // CW Left rotation pin
-const int pin_rotation_ccw_left = 33;   // CCW Left rotation pin
+const int pin_rotation_cw_right = 4;  // CW Right rotation pin
+const int pin_rotation_ccw_right = 22; // CCW Right rotation pin
+const int pin_rotation_cw_left = 18;    // CW Left rotation pin
+const int pin_rotation_ccw_left = 23;   // CCW Left rotation pin
 
 // Serial pins configuration
 #define RXD1 21 // RX for Serial1
@@ -53,11 +53,6 @@ void reconnect() {
     if (client.connect(clientId.c_str())) {
       Serial.println("Connected to MQTT broker");
 
-      // Subscribe to topics if needed
-      client.subscribe("/move/forward");
-      client.subscribe("/move/backward");
-      client.subscribe("/move/left");
-      client.subscribe("/move/right");
     } else {
       Serial.print("Failed to connect, rc=");
       Serial.print(client.state());
@@ -153,8 +148,8 @@ void loop() {
   if (!client.connected()) reconnect();
   client.loop();
 
-  handleSerialInput(mySerial1, "/sonar1");
-  handleSerialInput(mySerial2, "/sonar2");
+  handleSerialInput(mySerial1, "sonar1");
+  handleSerialInput(mySerial2, "sonar2");
 
   detectRotationAndPublish();
   delay(10); // Small delay to prevent flooding
