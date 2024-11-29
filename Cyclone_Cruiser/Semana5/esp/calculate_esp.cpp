@@ -102,7 +102,6 @@ void handleSerialInput(HardwareSerial &serial, const char* topic) {
     }
   }
 }
-
 void calculatePositionAndPublish(int delta_right, int delta_left) {
   // Calculate distances moved by each wheel
   float d_right = wheel_radius * 2 * (M_PI / 15) * delta_right;
@@ -112,11 +111,17 @@ void calculatePositionAndPublish(int delta_right, int delta_left) {
   float delta_theta = (d_right - d_left) / (2 * wheel_base);
   float d = (d_right + d_left) / 2;
 
-  // Update position and orientation
+  // Update orientation
   theta += delta_theta * (180.0 / M_PI);  // Convert radians to degrees
-  theta = fmod(theta + 180, 360) - 180;   // Normalize to [-180, 180]
-  x += d * cos(radians(theta) + delta_theta / 2);
-  y += d * sin(radians(theta) + delta_theta / 2);
+
+  // Normalize theta to the range [-180, 180]
+  while (theta > 180.0) theta -= 360.0;
+  while (theta < -180.0) theta += 360.0;
+
+  // Update position
+  float avg_theta = radians(theta) + delta_theta / 2;  // Use updated theta for movement
+  x += d * cos(avg_theta);
+  y += d * sin(avg_theta);
 
   // Publish updated values
   char msg[100];
