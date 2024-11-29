@@ -123,10 +123,19 @@ void calculatePositionAndPublish(int delta_right, int delta_left) {
   x += d * cos(avg_theta);
   y += d * sin(avg_theta);
 
-  // Publish updated values
-  char msg[100];
-  snprintf(msg, sizeof(msg), "theta:%.2f,x:%.2f,y:%.2f", theta, x, y);
-  if (client.publish("robot/position", msg)) {
+  // Publish rotation message (R:x, L:y)
+  char rotation_msg[50];
+  snprintf(rotation_msg, sizeof(rotation_msg), "R:%d,L:%d", delta_right, delta_left);
+  if (client.publish("robot/rotations", rotation_msg)) {
+    Serial.println("Rotation message published");
+  } else {
+    Serial.println("Failed to publish rotation message");
+  }
+
+  // Publish position and orientation (theta, x, y)
+  char position_msg[100];
+  snprintf(position_msg, sizeof(position_msg), "theta:%.2f,x:%.2f,y:%.2f", theta, x, y);
+  if (client.publish("robot/position", position_msg)) {
     Serial.println("Position message published");
   } else {
     Serial.println("Failed to publish position message");
