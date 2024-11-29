@@ -73,6 +73,27 @@ void reconnect() {
   }
 }
 
+void mqttCallback(char* topic, byte* payload, unsigned int length) {
+  // Convert the payload to a string
+  String message;
+  for (unsigned int i = 0; i < length; i++) {
+    message += (char)payload[i];
+  }
+
+  Serial.print("Message received on topic ");
+  Serial.print(topic);
+  Serial.print(": ");
+  Serial.println(message);
+
+  // Check if the message is "1" on the reset topic
+  if (String(topic) == "robot/reset" && message == "1") {
+    x = 0.0;
+    y = 0.0;
+    theta = 0.0;
+    Serial.println("Robot position reset to x=0, y=0, theta=0");
+  }
+}
+
 String extractLastValue(String message) {
   int lastComma = message.lastIndexOf(',');
   if (lastComma != -1) {
@@ -171,6 +192,7 @@ void setup() {
 
   setup_wifi();
   client.setServer(mqtt_server, 1883);
+  client.setCallback(mqttCallback); // Set the MQTT callback function
 
   mySerial1.begin(115200, SERIAL_8N1, RXD1, TXD1);
   mySerial2.begin(115200, SERIAL_8N1, RXD2, TXD2);
