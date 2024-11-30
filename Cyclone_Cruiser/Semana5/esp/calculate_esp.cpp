@@ -34,7 +34,7 @@ const float wheel_base = 0.2;    // Distance between wheels in meters
 float x = 0.0;
 float y = 0.0;
 float theta = 0.0;  // Orientation in degrees
-
+float prev_theta = 0.0;  // Orientation in degrees
 int prev_cw_right = 0, prev_ccw_right = 0, prev_cw_left = 0, prev_ccw_left = 0;
 
 void setup_wifi() {
@@ -64,6 +64,7 @@ void reconnect() {
 
     if (client.connect(clientId.c_str())) {
       Serial.println("Connected to MQTT broker");
+      client.subscribe("robot/reset");
     } else {
       Serial.print("Failed to connect, rc=");
       Serial.print(client.state());
@@ -127,6 +128,7 @@ void calculatePositionAndPublish(int delta_right, int delta_left) {
   // Calculate distances moved by each wheel
   float d_right = wheel_radius * 2 * (M_PI / 15) * delta_right;
   float d_left = wheel_radius * 2 * (M_PI / 15) * delta_left;
+  prev_theta = theta;
 
   // Calculate orientation change and average distance
   float delta_theta = (d_right - d_left) / (2 * wheel_base);
@@ -140,7 +142,7 @@ void calculatePositionAndPublish(int delta_right, int delta_left) {
   while (theta < -180.0) theta += 360.0;
 
   // Update position
-  float avg_theta = radians(theta) + delta_theta / 2;  // Use updated theta for movement
+  float avg_theta = radians(prev_theta) + delta_theta / 2;  // Use updated theta for movement
   x += d * cos(avg_theta);
   y += d * sin(avg_theta);
 
